@@ -49,7 +49,6 @@ private:
 
 	FGameplayEffectContextHandle ContextHandle{};
 
-	/* This seems to be intended for replication/server-side prediction? Need it to apply GE specs to self. */
 	FPredictionKey PredictionKey;
 
 	
